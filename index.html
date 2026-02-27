@@ -6,89 +6,83 @@
 <title>Prabhakar Kumar — Product Designer</title>
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="loader.css">
-
-<!-- Premium Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- LOADER -->
-<div class="loader">
-  <div class="loader-text">Prabhakar Kumar</div>
-</div>
+<div class="noise"></div>
 
-<!-- CURSOR -->
-<div class="cursor"></div>
-<div class="cursor-follower"></div>
-
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="logo">PK</div>
-  <nav>
-    <a href="#home">Home</a>
+<header class="nav">
+  <div class="logo">Prabhakar Kumar</div>
+  <div class="links">
     <a href="#work">Work</a>
     <a href="#about">About</a>
     <a href="#">Resume</a>
-  </nav>
+  </div>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1 class="reveal-text">Prabhakar Kumar</h1>
-    <h2 class="hero-sub">
-      Designing thoughtful digital experiences 
-      where UX meets Art & Strategy.
-    </h2>
+<section class="hero">
+  <div class="hero-text">
+    <h1>
+      Designing Digital <br>
+      Experiences with <br>
+      Clarity & Intent.
+    </h1>
 
-    <div class="cta-group">
-      <a class="magnetic-btn primary" href="#work">
-        <span>View Work</span>
-      </a>
-      <a class="magnetic-btn secondary" href="#">
-        <span>Download Resume</span>
-      </a>
+    <p>
+      I’m a Product Designer blending UX systems, 
+      visual storytelling, and strategic thinking 
+      to craft meaningful interfaces.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#work" class="btn primary">View Work</a>
+      <a href="#" class="btn secondary">Download Resume</a>
     </div>
   </div>
 
-  <div class="hero-visual">
-    <div class="hero-glow"></div>
-    <img src="assets/portrait.jpg" class="hero-img" alt="portrait">
+  <div class="hero-image">
+    <div class="glow"></div>
+    <img src="assets/portrait.jpg" alt="Prabhakar">
   </div>
 </section>
 
-<!-- WORK -->
-<section class="work" id="work">
-  <h2 class="section-title reveal-text">Selected Work</h2>
+<section id="work" class="work">
+  <h2>Selected Work</h2>
 
   <div class="projects">
-    <div class="card tilt">
+
+    <div class="project">
       <img src="assets/project1.jpg">
-      <h3>LXR GUIDE</h3>
-      <p>Unified Marketing Decision Platform</p>
+      <div class="project-info">
+        <h3>LXR GUIDE</h3>
+        <p>Unified Marketing Decision Platform</p>
+      </div>
     </div>
 
-    <div class="card tilt">
+    <div class="project">
       <img src="assets/project2.jpg">
-      <h3>LXR SEO</h3>
-      <p>SEO Optimization Tool</p>
+      <div class="project-info">
+        <h3>LXR SEO</h3>
+        <p>SEO Optimization Tool</p>
+      </div>
     </div>
+
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <h2 class="section-title reveal-text">About</h2>
-  <p class="about-text">
-    I am a Product Designer blending UX systems, visual storytelling,
-    and strategic thinking to craft meaningful and elegant digital experiences.
+<section id="about" class="about">
+  <h2>About</h2>
+  <p>
+    I design digital systems that feel intuitive and scalable. 
+    My approach combines research, structure, and artistic sensitivity 
+    to create products that are both usable and memorable.
   </p>
 </section>
 
-<footer class="footer">
-  © 2026 Prabhakar Kumar — Crafted with intention.
+<footer>
+  © 2026 Prabhakar Kumar
 </footer>
 
 <script src="script.js"></script>
